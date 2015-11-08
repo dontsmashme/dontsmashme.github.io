@@ -11,10 +11,10 @@
     
     function myFunction(){
     setTimeout(function changePicture(){
-        		document.getElementById("thePicture").src="/Users/jeffreyzhao/Desktop/VSCode/StaplesButton/timmy.png";
+        		document.getElementById("thePicture").src="timmy.png";
                 setTimeout(function openMouth(){
-                    document.getElementById("thePicture").src="/Users/jeffreyzhao/Desktop/VSCode/StaplesButton/timmy2.png";
-                        setTimeout(function changePicture(){document.getElementById("thePicture").src="/Users/jeffreyzhao/Desktop/VSCode/StaplesButton/timmy.png";},300);
+                    document.getElementById("thePicture").src="timmy2.png";
+                        setTimeout(function changePicture(){document.getElementById("thePicture").src="timmy.png";},300);
                 },400);
         },1000);
      playSound();
