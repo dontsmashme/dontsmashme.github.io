@@ -11,10 +11,10 @@
     
     function myFunction(){
     setTimeout(function changePicture(){
-        		document.getElementById("thePicture").src="timmy.png";
+        		document.getElementById("thePicture").src="https://github.com/dontsmashme/dontsmashme.github.io/blob/master/staplesButton/timmy.png";
                 setTimeout(function openMouth(){
-                    document.getElementById("thePicture").src="timmy2.png";
-                        setTimeout(function changePicture(){document.getElementById("thePicture").src="timmy.png";},300);
+                    document.getElementById("thePicture").src="https://github.com/dontsmashme/dontsmashme.github.io/blob/master/staplesButton/timmy2.png";
+                        setTimeout(function changePicture(){document.getElementById("thePicture").src="https://github.com/dontsmashme/dontsmashme.github.io/blob/master/staplesButton/timmy.png";},300);
                 },400);
         },1000);
      playSound();
