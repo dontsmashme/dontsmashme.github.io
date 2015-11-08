@@ -19,7 +19,7 @@
         },1000);
      playSound();
      setTimeout(function changeWebsite(){
-      location.href="http://abeall41.github.io/soccer/";
+      location.href="http://abeall41.github.io/soccer";
     },2400);
     }
    
